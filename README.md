@@ -1,28 +1,29 @@
-# Create T3 App
+# Hue Rotate
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Hue Rotate is a React application that allows users to select an initial color and a desired color, then calculates the CSS `hue-rotate` filter value required to transition between these colors.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Select initial and desired colors using HEX, RGB, or HSL formats.
+- View the calculated hue rotation angle.
+- Copy the hue rotation value to the clipboard with a single click.
+- Responsive design for use on various devices and screen sizes.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Usage
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+To use the application, follow these steps:
 
-## Learn More
+1. Input the initial color in any CSS-supported format (HEX, RGB, HSL).
+2. Input the desired color in any CSS-supported format.
+3. View the calculated `hue-rotate` value displayed.
+4. Click the copy icon next to the hue rotation value to copy it to the clipboard.
+5. Use this value in your CSS to apply the `hue-rotate` filter to an element.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## License
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Acknowledgments
+- React documentation
+- Tailwind CSS for styling
+- chroma.js for color calculations
