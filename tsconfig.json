@@ -36,7 +36,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.mjs",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/app/utils/useColorFormatter.tsx"
   ],
   "exclude": ["node_modules"]
 }
